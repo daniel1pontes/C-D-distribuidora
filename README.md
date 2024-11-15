@@ -1,2 +1,2 @@
 # C-D-distribuidora
-Página web desenvolvida para a empresa C&amp;D distribuidora
+Sistema web desenvolvido para a empresa C&D distribuidora
