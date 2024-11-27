@@ -74,6 +74,7 @@ header{
     padding-right: 50px;
     font-size: 18px;
     position: relative;
+    
 }
 
 .menu nav a::after{
