@@ -1,5 +1,5 @@
 <?php
-include_once('templates/topo.php');
+include_once('../sessao.php');
 include_once('templates/menu.php');
 
 if(empty($_SERVER['QUERY_STRING'])){

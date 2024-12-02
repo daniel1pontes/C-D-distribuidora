@@ -12,7 +12,6 @@ while($produto = mysqli_fetch_array($sql)){
     echo "Quantidade: $produto[quantidade] <br>";
     echo "Código de barras unidade: $produto[codigo_unidade] <br>";
     echo "Código de barras caixa: $produto[codigo_caixa] <br>";
-    echo "<a href=?pg=excluir_produto&id=$produto[ID]> <b>[X] Excluir</b></a>";
     echo "<hr>";
 }
 

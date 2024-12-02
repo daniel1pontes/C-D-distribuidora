@@ -1,7 +1,7 @@
 <h1>Mensagem</h1>
 <?php
 include_once("../config.inc.php");
-
+include_once('../sessao.php');
 $sql = mysqli_query($conexao,"SELECT * FROM mensagens");
 
 while($cliente = mysqli_fetch_array($sql)){

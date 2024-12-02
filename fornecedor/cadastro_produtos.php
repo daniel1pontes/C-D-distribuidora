@@ -11,7 +11,7 @@
 
 <?php 
 include_once('../config.inc.php');
-
+include_once('../sessao.php');
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     $marca = $_REQUEST["marca"];
     $descricao = $_REQUEST["descricao"];
@@ -25,16 +25,16 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     } 
     else{
 
-        $sql = "INSERT INTO clientes (razao,nome,cnpj,inscricao,endereco,bairro,numero,cidade,estado,cep,email,ramo,telefone) 
-            VALUES ('$razao','$nome','$cnpj','$inscricao','$endereco','$bairro','$numero','$cidade','$estado','$cep','$email','$ramo','$telefone')";
+        $sql = $sql = "INSERT INTO produtos (marca, descricao, tipo_embalagem, quantidade, codigo_unidade, codigo_caixa) 
+        VALUES ('$marca', '$descricao', '$tipo_embalagem', '$quantidade', '$codigo_unidade', '$codigo_caixa')";
 
         $query = mysqli_query($conexao,$sql);
         
         if ($sql){
-            echo "Cliente cadastrado com sucesso.";
+            echo "produto cadastrado com sucesso.";
         } 
         else{
-            echo "Erro ao cadastrar cliente.";
+            echo "Erro ao cadastrar produto.";
         }
     }
 }
