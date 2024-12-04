@@ -1,4 +1,11 @@
 <h1>Lista clientes</h1>
+<style> body { font-family: Arial, sans-serif; margin: 20px; } 
+h1 { color: #333; }
+.cliente { border-bottom: 1px solid #ddd; padding: 10px 0; }
+.cliente b { color: #ff0000; }
+.cliente a { color: #007bff; text-decoration: none; }
+.cliente a:hover { text-decoration: underline; }
+</style>
 <?php
     include_once('../sessao.php');
     include_once("../config.inc.php");

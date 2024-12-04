@@ -15,7 +15,7 @@
                 <nav>
                     <a href="?pg=inicial">Inicio</a>
                     <a href="?pg=fornecedores">Fornecedores</a>
-                    <a href="?pg=faleconosco">Fale Conosoco</a>
+                    <a href="?pg=faleconosco">Fale Conosco</a>
                     <a href="?pg=form_cadastro_cliente">Cadastro Clientes</a>
                     <a href="?pg=form_cadastro_fornecedor">Cadastro fornecedor</a>
                     <a href="?pg=form_login_cliente">Login</a>
