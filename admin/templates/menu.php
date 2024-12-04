@@ -13,12 +13,12 @@
             <div class="logo"><img src="../img/cddist.jpg"></div>
             <div class="menu">
                 <nav>
-                <li><a href="?pg=inicial"> Página Inicial admin </a></li>
-                <li><a href="?pg=usuarios">Usuarios</a></li>
-                <li><a href="?pg=lista_clientes">Lista Clientes</a></li>
-                <li><a href="?pg=lista_produtos">Lista Produtos</a> </li>
-                <li><a href="?pg=lista_mensagens">Mensagens</a></li>
-                <li><a href="?pg=encerrar_sessao">Home</a></li>
+                <a href="?pg=inicial"> Página Inicial admin </a>
+                <a href="?pg=usuarios">Usuarios</a>
+                <a href="?pg=lista_clientes">Lista Clientes</a>
+                <a href="?pg=lista_produtos">Lista Produtos</a>
+                <a href="?pg=lista_mensagens">Mensagens</a>
+                <a href="?pg=encerrar_sessao">Home</a>
                 </nav>
             </div>
             <style>

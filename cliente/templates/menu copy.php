@@ -14,13 +14,8 @@
             <div class="menu">
                 <nav>
                 <a href="?pg=inicial"> Página Inicial </a>
-                <a href="?pg=lista_clientes">Lista Cli</a>
-                <a href="?pg=aprovar_cadastro_clientes">Aprovar Cli</a>
-                <a href="?pg=lista_fornecedores">Lista Forn</a>
-                <a href="?pg=aprovar_cadastro_fornecedores">Aprovar Forn</a>
-                <a href="?pg=lista_produtos">Lista Produtos</a>
-                <a href="?pg=lista_mensagens">Mensagens</a>
-                <a href="?pg=encerrar_sessao">Home</a>
+                <a href="?pg=lista_produtos">lista Clientes</a>
+                <a href="?pg=encerrar_sessao">home</a>
                 </nav>
             </div>
             <style>
@@ -68,13 +63,13 @@ header{
 }
 
 .menu{
-    width: 75%;
+    width: 70%;
 }
 
 .menu nav a{
     color: #483D8B;
     text-decoration: none;
-    padding-right: 40px;
+    padding-right: 50px;
     font-size: 18px;
     position: relative;
     
