@@ -7,6 +7,7 @@
 </form>
 
 <?php
+    include_once('../sessao.php');
     include_once('../config.inc.php');
     if ($_SERVER["REQUEST_METHOD"] == "POST"){
         $nome = $_REQUEST["nome"];
