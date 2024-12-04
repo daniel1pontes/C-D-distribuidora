@@ -3,7 +3,7 @@
 <p><a href="?pg=cadastro_novo_usu">Cadastrar Novo Usuário</a></p>
 
 <?php
-
+    include_once('../sessao.php');
     include_once("../config.inc.php");
 
     $sql = mysqli_query($conexao,"SELECT * FROM usuarios");

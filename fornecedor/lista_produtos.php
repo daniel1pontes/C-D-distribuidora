@@ -1,8 +1,7 @@
-<h1>Lista de produtos</h1>
+<h1>produtos</h1>
 <?php
-include_once('../sessao.php');
 include_once("../config.inc.php");
-
+include_once('../sessao.php');
 $sql = mysqli_query($conexao,"SELECT * FROM produtos");
 
 while($produto = mysqli_fetch_array($sql)){
@@ -12,7 +11,6 @@ while($produto = mysqli_fetch_array($sql)){
     echo "Quantidade: $produto[quantidade] <br>";
     echo "Código de barras unidade: $produto[codigo_unidade] <br>";
     echo "Código de barras caixa: $produto[codigo_caixa] <br>";
-    echo "<a href=?pg=excluir_produto&id=$produto[ID]> <b>[X] Excluir</b></a>";
     echo "<hr>";
 }
 

@@ -1,4 +1,5 @@
 <?php
+    include_once('../sessao.php');
     include_once("../config.inc.php");
 
     $id = $_REQUEST['id'];

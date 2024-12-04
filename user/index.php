@@ -1,9 +1,10 @@
 <?php
-include_once('templates/topo.php');
+
+include("../sessao.php");
 include_once('templates/menu.php');
 
 if(empty($_SERVER['QUERY_STRING'])){
-    $var = "index.php";
+    $var = "inicial.php";
     include_once($var);
 }else{
     $pg = $_GET['pg'];
